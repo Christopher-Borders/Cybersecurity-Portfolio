@@ -1,5 +1,4 @@
 Christopher Borders — Cybersecurity Portfolio
-
 Security-focused Infrastructure & Network Operations Engineer with experience in:
 AWS cloud environments
 SIEM monitoring (Splunk Enterprise)
@@ -11,3 +10,12 @@ SOC investigations
 Threat detection
 Cloud security
 Network traffic analysis
+
+Core Skills Demonstrated
+SIEM Investigation (Splunk-style analysis)
+Threat Detection & Log Correlation
+Network Traffic Analysis (DNS, TCP/IP)
+Incident Response Methodology
+Cloud Security (AWS — in progress)
+
+
