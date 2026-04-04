@@ -49,7 +49,7 @@ Detects multiple failed login attempts followed by a successful authentication, 
 | stats count(eval(status="FAIL")) as failed_attempts, count(eval(status="SUCCESS")) as successful_attempts by username
 | where failed_attempts > 3 AND successful_attempts > 0`
 
-###### Rationale
+#### Rationale
 
 A high number of failed login attempts followed by a successful login is a strong indicator of brute-force or password spraying activity. This pattern suggests that an attacker may have successfully guessed valid credentials after multiple attempts.
 
