@@ -34,7 +34,7 @@ An alert indicated unusual PowerShell execution on an endpoint. The objective wa
 
 This query was used to analyze the sequence of PowerShell execution events, identify parent-child relationships, and observe repeated suspicious command patterns.
 
-PowerShell Command Frequency
+#### PowerShell Command Frequency
 
 `index=main process_name=powershell.exe
 | stats count by command_line
@@ -42,7 +42,7 @@ PowerShell Command Frequency
 
 This query was used to quantify repeated command execution and identify the most frequently executed PowerShell commands.
 
-Findings
+### Findings
 - Multiple instances of PowerShell execution were observed.
 - The command powershell.exe -nop -enc SQBFAFgA was executed repeatedly.
 - Encoded command execution (-enc) was used to obfuscate activity.
@@ -52,7 +52,7 @@ Findings
 - A single instance of normal PowerShell usage (Get-Process) was observed, contrasting with suspicious activity.
 - The encoded PowerShell command was executed five times, indicating repeated automated execution.
 
-Behavioral Indicators
+### Behavioral Indicators
 Repeated execution of identical encoded commands.
 Use of obfuscation techniques (-enc flag).
 Execution patterns consistent with automation.
@@ -64,18 +64,18 @@ The repeated execution of encoded PowerShell commands using -nop -enc flags stro
 
 The consistent repetition of the same encoded command suggests automated or scripted activity rather than manual user interaction. Additionally, the presence of suspicious parent-child relationships, such as cmd.exe launching PowerShell and PowerShell spawning itself, further supports the likelihood of malicious behavior.
 
-Conclusion
+### Conclusion
 
 The investigation identified suspicious PowerShell activity consistent with potential malware execution or attacker-driven script activity. The combination of encoded command usage, repeated execution, and abnormal process relationships strongly indicates malicious behavior on the endpoint.
 
-Recommended Actions
+### Recommended Actions
 1. Isolate the affected host from the network.
 2. Investigate the system for malware or unauthorized scripts.
 3. Block or monitor suspicious PowerShell activity.
 4. Implement endpoint detection and response (EDR) tools.
 5. Enforce PowerShell logging and monitoring policies.
-6. 
-Lessons Learned
+   
+### Lessons Learned
 PowerShell is a powerful administrative tool frequently abused by attackers.
 Encoded commands are a strong indicator of obfuscation and malicious intent.
 Parent-child process relationships provide critical context in investigations.
@@ -84,7 +84,7 @@ Real-World Application
 
 This type of analysis is commonly performed in Security Operations Centers (SOC) to detect malware execution and suspicious endpoint activity. Identifying abnormal PowerShell usage is a critical skill for detecting advanced threats and living-off-the-land attacks.
 
-Dataset
+### Dataset
 
 process_logs.csv
 
