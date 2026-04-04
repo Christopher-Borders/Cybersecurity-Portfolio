@@ -34,3 +34,8 @@ Hands-on SOC-style investigation using Splunk to detect brute-force attacks and 
 Hands-on SOC-style investigation using Splunk to detect suspicious PowerShell activity, encoded command execution, and potential malware behavior through endpoint process analysis.
 
 [View Project](./suspicious-process-investigation)
+
+### 🔹 Detection Engineering Project
+Development of custom detection rules in Splunk to identify malicious activity across endpoint, authentication, and network data sources, including PowerShell abuse, brute-force login attempts, and DNS beaconing.
+
+[View Project](./detection-engineering)
