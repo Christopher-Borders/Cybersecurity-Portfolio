@@ -24,18 +24,20 @@ An alert indicated multiple failed login attempts followed by a successful login
 6. Identified continued failed attempts after successful authentication.
 7. Detected a change in IP address and geographic location.
 
-### Sample Query
-
-`index=main username=jdoe
-| stats count by status`
-
-This query was used to quantify failed versus successful login attempts for the user.
+### Sample Queries
 
 #### User Activity Timeline
 
 `index=main username=jdoe
 | table _time, src_ip, status, location
 | sort _time`
+
+This query was used to display the sequence of login events for the user, allowing identification of failed login attempts, successful authentication, IP address changes, and geographic anomalies over time.
+
+`index=main username=jdoe
+| stats count by status`
+
+This query was used to quantify failed versus successful login attempts, helping to identify brute-force patterns and validate suspicious activity.
 
 ### Findings
 - Multiple failed login attempts were observed for user `jdoe`.
