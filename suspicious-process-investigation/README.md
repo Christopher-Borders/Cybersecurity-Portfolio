@@ -10,3 +10,11 @@ An alert indicated unusual PowerShell execution on an endpoint. The objective wa
 
 ### Investigation Process
 Details of the investigation will be documented below.
+
+### Screenshots
+
+#### PowerShell Execution Timeline
+![PowerShell Timeline](../powershell_timeline.png)
+
+#### PowerShell Command Frequency
+![Command Counts](../powershell_command_counts.png)
