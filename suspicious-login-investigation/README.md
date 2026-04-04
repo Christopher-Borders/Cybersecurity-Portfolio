@@ -10,3 +10,8 @@ An alert indicated multiple failed login attempts followed by a successful login
 
 ### Investigation Process
 Details of the investigation will be documented below.
+
+### Screenshots
+
+#### Login Activity Timeline for jdoe
+![Login Timeline](../jdoe_login_timeline.png)
