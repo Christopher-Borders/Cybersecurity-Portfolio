@@ -79,6 +79,7 @@ A review of the email headers revealed discrepancies between the sender domain a
 - The email appears to originate from an untrusted source.
 
 These inconsistencies are common indicators of email spoofing and phishing activity.
+These authentication failures increase the likelihood that the email was spoofed or sent from an unauthorized source.
 
 #### Email Authentication Results
 
@@ -95,7 +96,7 @@ The following illustrates the lack of proper email authentication in this simula
 
 These tactics are commonly used in phishing campaigns to manipulate users into taking action without verification.
 
-### Related Techniques
+### MITRE ATT&CK Mapping
 
 MITRE ATT&CK:  
 - T1566.002 – Phishing: Spearphishing Link
