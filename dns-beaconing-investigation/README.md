@@ -80,3 +80,5 @@ The dataset used in this project consists of simulated DNS log entries represent
 
 ### Screenshots:
 Below are example query results from Splunk demonstrating the investigation process:
+
+Finalize DNS beaconing investigation project.
