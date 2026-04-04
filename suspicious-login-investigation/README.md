@@ -31,6 +31,12 @@ An alert indicated multiple failed login attempts followed by a successful login
 
 This query was used to quantify failed versus successful login attempts for the user.
 
+#### User Activity Timeline
+
+`index=main username=jdoe
+| table _time, src_ip, status, location
+| sort _time`
+
 `index=main username=jdoe
 | table_time, src_ip, status, location
 | sort_time`
