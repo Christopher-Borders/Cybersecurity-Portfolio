@@ -25,9 +25,15 @@ An alert indicated multiple failed login attempts followed by a successful login
 7. Detected a change in IP address and geographic location.
 
 ### Sample Query
+
+`index=main username=jdoe
+| stats count by status`
+
+This query was used to quantify failed versus successful login attempts for the user.
+
 `index=main username=jdoe
 | table_time, src_ip, status, location
-| sort_time
+| sort_time`
 
 
 ### Findings
@@ -37,6 +43,7 @@ An alert indicated multiple failed login attempts followed by a successful login
 - Initial activity originated from IP `192.168.1.10` (US).
 - Subsequent successful logins originated from IP `203.0.113.50` (Russia).
 - The geographic location changed within a short time frame.
+- Failed login attempts continued after successful authentication, indicating automated attack behavior rather than normal user activity.
 
 ### Behavioral Indicators
 - Repeated failed login attempts (brute force pattern).
@@ -46,7 +53,7 @@ An alert indicated multiple failed login attempts followed by a successful login
 - Geographic location anomaly (US → Russia).
 
 ### Interpretation
-The observed behavior is consistent with an automated brute-force or password spraying attack. The continued failed login attempts after a successful authentication strongly suggest that an automated script remained active even after valid credentials were discovered.
+The presence of continued failed login attempts after a successful authentication strongly indicates automated brute-force or password spraying activity, as legitimate users do not continue to generate failed login attempts after successfully authenticating.
 
 The subsequent successful logins from a different IP address and geographic location indicate a likely account compromise. The rapid transition between locations suggests unauthorized access rather than legitimate user activity.
 
@@ -68,6 +75,10 @@ The investigation identified a likely account compromise involving user `jdoe`. 
 
 ### Real-World Application
 This type of analysis is commonly performed in Security Operations Centers (SOC) to detect account compromise and unauthorized access. Identifying brute force patterns and geographic anomalies early can prevent further exploitation and lateral movement.
+
+### Dataset
+
+[login_logs.csv](../login_logs.csv)
 
 ### Screenshots
 
