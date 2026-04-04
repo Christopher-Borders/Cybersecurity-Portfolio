@@ -43,13 +43,15 @@ PowerShell Command Frequency
 This query was used to quantify repeated command execution and identify the most frequently executed PowerShell commands.
 
 Findings
-Multiple instances of PowerShell execution were observed.
-The command powershell.exe -nop -enc SQBFAFgA was executed repeatedly.
-Encoded command execution (-enc) was used to obfuscate activity.
-The -nop flag was used to bypass PowerShell profile loading.
-PowerShell was frequently launched by cmd.exe, indicating potential scripted execution.
-PowerShell spawned additional PowerShell processes, suggesting chained execution.
-A single instance of normal PowerShell usage (Get-Process) was observed, contrasting with suspicious activity.
+- Multiple instances of PowerShell execution were observed.
+- The command powershell.exe -nop -enc SQBFAFgA was executed repeatedly.
+- Encoded command execution (-enc) was used to obfuscate activity.
+- The -nop flag was used to bypass PowerShell profile loading.
+- PowerShell was frequently launched by cmd.exe, indicating potential scripted execution.
+- PowerShell spawned additional PowerShell processes, suggesting chained execution.
+- A single instance of normal PowerShell usage (Get-Process) was observed, contrasting with suspicious activity.
+- The encoded PowerShell command was executed five times, indicating repeated automated execution.
+
 Behavioral Indicators
 Repeated execution of identical encoded commands.
 Use of obfuscation techniques (-enc flag).
