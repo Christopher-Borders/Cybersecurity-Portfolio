@@ -37,11 +37,6 @@ This query was used to quantify failed versus successful login attempts for the 
 | table _time, src_ip, status, location
 | sort _time`
 
-`index=main username=jdoe
-| table_time, src_ip, status, location
-| sort_time`
-
-
 ### Findings
 - Multiple failed login attempts were observed for user `jdoe`.
 - A successful login occurred after several failed attempts.
