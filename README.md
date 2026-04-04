@@ -39,3 +39,8 @@ Hands-on SOC-style investigation using Splunk to detect suspicious PowerShell ac
 Development of custom detection rules in Splunk to identify malicious activity across endpoint, authentication, and network data sources, including PowerShell abuse, brute-force login attempts, and DNS beaconing.
 
 [View Project](./detection-engineering)
+
+### 🔹 Phishing Email Investigation
+Analysis of a simulated phishing email to identify social engineering tactics, domain spoofing, and email authentication failures (SPF, DKIM, DMARC), with supporting evidence and security impact assessment.
+
+[View Project](./phishing-email-investigation)
