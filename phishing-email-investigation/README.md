@@ -51,9 +51,16 @@ This strongly suggests the link is part of a phishing attempt designed to captur
 
 ### Conclusion
 
-The email exhibits multiple indicators of phishing, including a spoofed sender domain, urgency-based language, and a deceptive URL. These elements are commonly used in phishing campaigns to trick users into revealing sensitive information.
+The email exhibits multiple strong indicators of phishing, including domain impersonation, deceptive URL structure, and urgency-based social engineering tactics. These characteristics are consistent with credential harvesting campaigns designed to deceive users and capture sensitive information.
 
-The email should be classified as malicious and reported to the appropriate security team.
+The email should be classified as malicious and treated as a high-risk security threat.
+
+### Impact
+
+If a user were to click the link and enter credentials, the attacker could gain unauthorized access to the user’s account, potentially leading to account takeover, data exposure, or further phishing attacks.
+
+### Severity
+High
 
 ### Recommended Actions
 
@@ -61,6 +68,7 @@ The email should be classified as malicious and reported to the appropriate secu
 - Report the email to the security team.
 - Block the sender domain.
 - Educate users on recognizing phishing attempts.
+- -Reset affected user credentials if interaction occurred.
 
   ### Email Header Analysis
 
@@ -71,6 +79,12 @@ A review of the email headers revealed discrepancies between the sender domain a
 - The email appears to originate from an untrusted source.
 
 These inconsistencies are common indicators of email spoofing and phishing activity.
+
+#### Email Authentication Results
+
+The following illustrates the lack of proper email authentication in this simulated scenario:
+
+![Email Authentication](../email_authentication_results.png)
 
 ### Social Engineering Indicators
 
