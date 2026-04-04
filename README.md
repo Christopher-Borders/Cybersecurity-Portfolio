@@ -29,3 +29,8 @@ Hands-on SOC-style investigation using Splunk to detect command-and-control (C2)
 Hands-on SOC-style investigation using Splunk to detect brute-force attacks and account compromise through authentication log analysis.
 
 [View Project](./suspicious-login-investigation)
+
+### 🔹 Suspicious Process Investigation
+Hands-on SOC-style investigation using Splunk to detect suspicious PowerShell activity, encoded command execution, and potential malware behavior through endpoint process analysis.
+
+[View Project](./suspicious-process-investigation)
