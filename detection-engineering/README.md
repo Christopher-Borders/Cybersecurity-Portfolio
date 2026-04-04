@@ -26,6 +26,8 @@ High
 
 `index=main process_name=powershell.exe command_line="*-enc*"`
 
+This query returns events that match the defined suspicious pattern.
+
 #### Rationale
 
 The use of the -enc flag indicates encoded command execution, which is frequently associated with malicious activity. This detection rule identifies potential abuse of PowerShell for malware execution.
@@ -43,18 +45,22 @@ Legitimate administrative or automated activity may trigger this detection and s
 #### Description
 Detects multiple failed login attempts followed by a successful authentication, which may indicate a brute-force attack or credential compromise.
 
+#### Severity
+High
+
 #### Detection Logic
 
 `index=main status=FAIL OR status=SUCCESS
 | stats count(eval(status="FAIL")) as failed_attempts, count(eval(status="SUCCESS")) as successful_attempts by username
 | where failed_attempts > 3 AND successful_attempts > 0`
 
+This query returns events that match the defined suspicious pattern.
+
 #### Rationale
 
 A high number of failed login attempts followed by a successful login is a strong indicator of brute-force or password spraying activity. This pattern suggests that an attacker may have successfully guessed valid credentials after multiple attempts.
 
 #### Related Technique
-
 
 MITRE ATT&CK: T1110 (Brute Force)
 
@@ -67,12 +73,17 @@ Legitimate administrative or automated activity may trigger this detection and s
 #### Description
 Detects repeated DNS queries from a single host to the same domain, which may indicate command-and-control (C2) beaconing behavior.
 
+#### Severity
+Medium or High if consisent interval is implied.
+
 #### Detection Logic
 
 `index=main
 | stats count by src_ip, query
 | where count > 10
 | sort -count`
+
+This query returns events that match the defined suspicious pattern.
 
 #### Rationale
 
