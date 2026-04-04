@@ -37,7 +37,7 @@ This query was used to display the sequence of login events for the user, allowi
 `index=main username=jdoe
 | stats count by status`
 
-This query was used to quantify failed versus successful login attempts, helping to identify brute-force patterns and validate suspicious activity.
+This query was used to quantify failed versus successful login attempts, helping to quantify brute-force activity and support the conclusion of account compromise
 
 ### Findings
 - Multiple failed login attempts were observed for user `jdoe`.
