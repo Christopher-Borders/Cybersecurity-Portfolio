@@ -39,7 +39,7 @@ Security Team
 - The link provided does not point to an official PayPal domain.
 - The use of HTTP instead of HTTPS is a security concern.
 
-  ### Link Analysis
+### Link Analysis
 
 The URL `http://paypaI-verification-secure.com/login` was analyzed.
 
@@ -70,7 +70,7 @@ High
 - Educate users on recognizing phishing attempts.
 - -Reset affected user credentials if interaction occurred.
 
-  ### Email Header Analysis
+### Email Header Analysis
 
 A review of the email headers revealed discrepancies between the sender domain and the originating mail server.
 
