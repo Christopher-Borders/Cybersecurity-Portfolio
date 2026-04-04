@@ -80,6 +80,8 @@ This type of analysis is commonly performed in Security Operations Centers (SOC)
 
 [login_logs.csv](../login_logs.csv)
 
+This dataset contains authentication log entries used to simulate normal and malicious login activity for analysis in Splunk.
+
 ### Screenshots
 
 #### Login Activity Timeline for jdoe
