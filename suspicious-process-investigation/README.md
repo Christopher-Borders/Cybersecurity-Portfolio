@@ -32,7 +32,7 @@ An alert indicated unusual PowerShell execution on an endpoint. The objective wa
 | table _time, parent_process, command_line
 | sort _time`
 
-This query was used to analyze the sequence of PowerShell execution events, identify parent-child relationships, and observe repeated suspicious command patterns.
+This query was used to quantify repeated command execution and identify the most frequently executed PowerShell commands.
 
 #### PowerShell Command Frequency
 
@@ -58,7 +58,8 @@ Use of obfuscation techniques (-enc flag).
 Execution patterns consistent with automation.
 Suspicious parent-child process relationships.
 Presence of both normal and malicious PowerShell activity.
-Interpretation
+
+### Interpretation
 
 The repeated execution of encoded PowerShell commands using -nop -enc flags strongly indicates obfuscated script execution. This technique is commonly used by attackers to conceal malicious payloads and evade detection.
 
@@ -80,7 +81,8 @@ PowerShell is a powerful administrative tool frequently abused by attackers.
 Encoded commands are a strong indicator of obfuscation and malicious intent.
 Parent-child process relationships provide critical context in investigations.
 Behavioral analysis is essential for detecting endpoint threats.
-Real-World Application
+
+### Real-World Application
 
 This type of analysis is commonly performed in Security Operations Centers (SOC) to detect malware execution and suspicious endpoint activity. Identifying abnormal PowerShell usage is a critical skill for detecting advanced threats and living-off-the-land attacks.
 
