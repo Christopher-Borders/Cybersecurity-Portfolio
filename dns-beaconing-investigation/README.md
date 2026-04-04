@@ -76,7 +76,11 @@ The observed activity is consistent with command-and-control (C2) beaconing beha
 This type of analysis is commonly performed in Security Operations Centers (SOC) to detect compromised hosts communicating with external command-and-control infrastructure. Identifying beaconing patterns early can significantly reduce dwell time and limit potential damage.
 
 ### Dataset:
-The dataset used in this project consists of simulated DNS log entries representing both normal and suspicious traffic patterns.
+The dataset used in this project is available below:
+
+[dns_logs.csv](../dns_logs.csv)
+
+The file consists of simulated DNS log entries representing both normal and suspicious traffic patterns.
 
 ### Screenshots:
 Below are example query results from Splunk demonstrating the investigation process:
