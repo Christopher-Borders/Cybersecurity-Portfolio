@@ -88,7 +88,10 @@ process_logs.csv
 
 This dataset contains simulated endpoint process logs representing both normal and suspicious activity for analysis in Splunk.
 
-Screenshots
-PowerShell Execution Timeline
+### Screenshots
 
-PowerShell Command Frequency
+#### PowerShell Execution Timeline
+![PowerShell Timeline](../powershell_timeline.png)
+
+#### PowerShell Command Frequency
+![Command Counts](../powershell_command_counts.png)
