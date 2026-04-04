@@ -81,4 +81,7 @@ The dataset used in this project consists of simulated DNS log entries represent
 ### Screenshots:
 Below are example query results from Splunk demonstrating the investigation process:
 
+#### Top Source IPs by Request Volume
+![Top Talker](../top_talker_query.png)
+
 Finalize DNS beaconing investigation project.
