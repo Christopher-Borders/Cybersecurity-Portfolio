@@ -18,4 +18,9 @@ Network Traffic Analysis (DNS, TCP/IP)
 Incident Response Methodology
 Cloud Security (AWS — in progress)
 
+## Projects
 
+### 🔹 DNS Beaconing Investigation
+Hands-on SOC-style investigation using Splunk to detect command-and-control (C2) beaconing behavior through DNS log analysis.
+
+[View Project](./dns-beaconing-investigation)
