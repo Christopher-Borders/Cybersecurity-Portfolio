@@ -3,7 +3,7 @@
 This project simulates a Security Operations Center (SOC) environment where multiple alerts are received simultaneously and must be prioritized and investigated.
 
 ### Objective
-To demonstrate the ability to triage security alerts based on severity, potential impact, and indicators of compromise.
+To demonstrate the ability to triage security alerts based on severity, potential impact, and indicators of compromise. This project simulates real-world SOC alert triage where analysts must quickly assess and prioritize multiple concurrent alerts.
 
 ### Tools Used
 - Splunk (SIEM)
@@ -51,6 +51,12 @@ During a monitoring shift, multiple alerts were triggered and required analysis 
 3. **DNS Beaconing Activity (Medium Priority)**
    - High volume DNS traffic may indicate command-and-control communication.
    - Requires investigation but less immediate than active execution.
+
+### Alert Disposition
+
+- Suspicious PowerShell: Confirmed suspicious activity (requires escalation)
+- Brute Force Login: Suspicious (requires further monitoring)
+- DNS Activity: Under investigation (potential anomaly)
 
 ### Triage Rationale
 
