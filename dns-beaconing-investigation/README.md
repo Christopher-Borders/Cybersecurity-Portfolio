@@ -77,7 +77,9 @@ This type of analysis is commonly performed in Security Operations Centers (SOC)
 
 ### Dataset:
 The dataset used in this project is available below:
+
 [dns_logs.csv](../dns_logs.csv)
+
 The file consists of simulated DNS log entries representing both normal and suspicious traffic patterns.
 
 ### Screenshots:
