@@ -24,3 +24,8 @@ Cloud Security (AWS — in progress)
 Hands-on SOC-style investigation using Splunk to detect command-and-control (C2) beaconing behavior through DNS log analysis.
 
 [View Project](./dns-beaconing-investigation)
+
+### 🔹 Suspicious Login Investigation
+Hands-on SOC-style investigation using Splunk to detect brute-force attacks and account compromise through authentication log analysis.
+
+[View Project](./suspicious-login-investigation)
