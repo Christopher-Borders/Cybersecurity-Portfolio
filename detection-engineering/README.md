@@ -40,6 +40,7 @@ MITRE ATT&CK: T1059.001 (PowerShell)
 
 Legitimate administrative or automated activity may trigger this detection and should be reviewed.
 
+
 ### Detection Rule 2: Brute Force Login Activity
 
 #### Description
@@ -67,6 +68,7 @@ MITRE ATT&CK: T1110 (Brute Force)
 #### False Positives 
 
 Legitimate administrative or automated activity may trigger this detection and should be reviewed.
+
 
 ### Detection Rule 3: DNS Beaconing Activity
 
