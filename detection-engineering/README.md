@@ -70,3 +70,6 @@ A high volume of DNS queries from a single source to the same domain may indicat
 
 MITRE ATT&CK: T1071.004 (Application Layer Protocol: DNS)
 
+### Alert Implementation
+
+These detection rules can be operationalized in Splunk by configuring them as scheduled alerts. Alerts can be triggered based on defined thresholds and integrated with incident response workflows.
