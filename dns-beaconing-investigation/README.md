@@ -84,3 +84,5 @@ Below are example query results from Splunk demonstrating the investigation proc
 #### Top Source IPs by DNS Request Volume (Splunk Output)
 ![Top Talker](../top_talker_query.png)
 
+#### DNS Query Distribution for Suspicious Host
+![Domain Queries](../domain_query_results.png)
