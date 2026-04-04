@@ -48,4 +48,25 @@ A high number of failed login attempts followed by a successful login is a stron
 
 #### Related Technique
 
+
 MITRE ATT&CK: T1110 (Brute Force)
+
+### Detection Rule 3: DNS Beaconing Activity
+
+#### Description
+Detects repeated DNS queries from a single host to the same domain, which may indicate command-and-control (C2) beaconing behavior.
+
+#### Detection Logic
+
+`index=main
+| stats count by src_ip, query
+| where count > 10`
+
+#### Rationale
+
+A high volume of DNS queries from a single source to the same domain may indicate automated beaconing activity. Malware often uses DNS to communicate with command-and-control infrastructure at regular intervals.
+
+#### Related Technique
+
+MITRE ATT&CK: T1071.004 (Application Layer Protocol: DNS)
+
