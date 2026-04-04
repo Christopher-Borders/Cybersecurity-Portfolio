@@ -44,3 +44,8 @@ Development of custom detection rules in Splunk to identify malicious activity a
 Analysis of a simulated phishing email to identify social engineering tactics, domain spoofing, and email authentication failures (SPF, DKIM, DMARC), with supporting evidence and security impact assessment.
 
 [View Project](./phishing-email-investigation)
+
+### 🔹 SIEM Alert Triage Simulation
+Simulation of a SOC environment where multiple security alerts are analyzed and prioritized based on severity, risk, and potential impact.
+
+[View Project](./siem-alert-triage)
