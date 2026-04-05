@@ -37,6 +37,7 @@ During a monitoring shift, multiple alerts were triggered and required analysis 
 
 - **High:** Indicates a high likelihood of compromise or active malicious behavior requiring immediate investigation.
 - **Medium:** Indicates suspicious activity that may represent a threat but is not immediately critical.
+- **Low:** Informational or low-risk activity.
 
 ### Alert Prioritization
 
