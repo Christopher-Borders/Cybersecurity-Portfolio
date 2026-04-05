@@ -10,7 +10,9 @@ Sysmon EventCode 1 (Process Creation logs)
 
 ### Dataset
 
-The dataset used in this investigation contains simulated Sysmon process creation logs designed to reflect realistic endpoint activity, including both normal and malicious behavior.
+File: `sysmon_lolbins_investigation.csv`
+
+This dataset contains simulated Sysmon process creation logs used to identify suspicious endpoint activity.
 
 
 ---
