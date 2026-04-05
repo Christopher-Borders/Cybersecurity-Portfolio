@@ -23,6 +23,15 @@ A workstation generated alerts indicating suspicious command execution. Sysmon l
 ### Investigation Process
 Sysmon logs were reviewed to identify abnormal process execution, command-line usage, and parent-child relationships.
 
+### Sample Queries
+
+`index=main EventCode=1 Image="*powershell.exe"
+| table _time CommandLine ParentImage User`
+
+`index=main Image="*powershell.exe"
+| stats count by CommandLine
+| sort -count`
+
 ---
 
 ### Key Findings
@@ -39,6 +48,8 @@ Sysmon logs were reviewed to identify abnormal process execution, command-line u
 The observed behavior suggests the use of PowerShell as a Living-off-the-Land Binary (LOLBins) to download a malicious payload. The use of `Invoke-WebRequest` to retrieve an executable file from an external domain is a strong indicator of compromise.
 
 The parent-child relationship of `cmd.exe` spawning PowerShell indicates potential script-based execution, commonly seen in attacker activity.
+
+This activity is consistent with adversaries leveraging legitimate Windows binaries (LOLBins) to evade detection while executing malicious actions.
 
 ---
 
