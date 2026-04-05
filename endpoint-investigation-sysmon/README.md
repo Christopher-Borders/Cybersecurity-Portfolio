@@ -1,4 +1,4 @@
-## Endpoint Investigation Using Sysmon
+## Endpoint Investigation: Living-off-the-Land Attack (Sysmon)
 
 This project demonstrates how endpoint telemetry from Sysmon can be used to identify suspicious process activity and potential malicious behavior.
 
