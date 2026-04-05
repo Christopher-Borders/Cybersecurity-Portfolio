@@ -8,6 +8,11 @@ To analyze endpoint telemetry using Sysmon logs to identify suspicious process a
 ### Data Source
 Sysmon EventCode 1 (Process Creation logs)
 
+### Dataset
+
+The dataset used in this investigation contains simulated Sysmon process creation logs designed to reflect realistic endpoint activity, including both normal and malicious behavior.
+
+File: `sysmon_lolbins_investigation.csv`
 ---
 
 ### Scenario
