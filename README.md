@@ -5,18 +5,21 @@ SIEM monitoring (Splunk Enterprise)
 Incident investigation & root cause analysis
 Network troubleshooting (TCP/IP, DNS, firewalls)
 
-This portfolio demonstrates hands-on cybersecurity projects focused on:
-SOC investigations
-Threat detection
-Cloud security
-Network traffic analysis
+## Cybersecurity Portfolio
 
-Core Skills Demonstrated
-SIEM Investigation (Splunk-style analysis)
-Threat Detection & Log Correlation
-Network Traffic Analysis (DNS, TCP/IP)
-Incident Response Methodology
-Cloud Security (AWS — in progress)
+This portfolio demonstrates hands-on experience in security operations, including SIEM analysis, threat detection, endpoint investigation, and network traffic analysis.
+
+Projects are based on realistic scenarios and focus on identifying, analyzing, and responding to security threats.
+
+### Skills Demonstrated
+
+- SIEM Analysis (Splunk)
+- Threat Detection & Log Correlation
+- Endpoint Investigation (Sysmon)
+- Network Traffic Analysis
+- Incident Triage & Prioritization
+- Phishing Analysis
+- Detection Engineering
 
 ## Projects
 
