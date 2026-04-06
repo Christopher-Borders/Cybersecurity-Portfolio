@@ -17,31 +17,31 @@ Each project is based on realistic scenarios designed to simulate real-world sec
 ## Projects
 
 ### 🔹 Network Investigation: DNS Beaconing
-Hands-on SOC-style investigation using Splunk to detect command-and-control (C2) beaconing behavior through DNS log analysis.
+Analysis of DNS query patterns using Splunk Enterprise to identify beaconing behavior indicative of command-and-control (C2) communication through repeated, time-based requests to a suspicious domain.
 
 [View Project](./dns-beaconing-investigation)
 
 ### 🔹 Authentication Investigation: Suspicious Login Activity
-Hands-on SOC-style investigation using Splunk to detect brute-force attacks and account compromise through authentication log analysis.
+Analysis of authentication logs to detect brute-force activity and anomalous login patterns, including repeated failed attempts followed by successful authentication from the same source.
 
 [View Project](./suspicious-login-investigation)
 
 ### 🔹 Endpoint Investigation: Suspicious Process Execution
-Hands-on SOC-style investigation using Splunk to detect suspicious PowerShell activity, encoded command execution, and potential malware behavior through endpoint process analysis.
+Analysis of process execution logs to identify suspicious PowerShell activity, including repeated execution with encoded commands and abnormal parent-child process relationships.
 
 [View Project](./suspicious-process-investigation)
 
 ### 🔹 Detection Engineering: SIEM Rules
-Development of custom detection rules in Splunk to identify malicious activity across endpoint, authentication, and network data sources, including PowerShell abuse, brute-force login attempts, and DNS beaconing.
+Development of SIEM detection rules to identify malicious behaviors such as PowerShell abuse, brute-force login attempts, and DNS beaconing using log correlation and behavioral indicators.
 
 [View Project](./detection-engineering)
 
 ### 🔹 Phishing Investigation: Email Analysis
-Analysis of a simulated phishing email to identify social engineering tactics, domain spoofing, and email authentication failures (SPF, DKIM, DMARC), with supporting evidence and security impact assessment.
+Analysis of a phishing email to identify social engineering techniques, domain spoofing, and email authentication failures (SPF, DKIM, DMARC), with assessment of potential security impact.
 
 [View Project](./phishing-email-investigation)
 
 ### 🔹 SIEM Alert Triage Simulation
-Simulation of a SOC environment where multiple security alerts are analyzed and prioritized based on severity, risk, and potential impact.
+Simulation of a SOC alert queue to prioritize and investigate multiple concurrent security alerts based on severity, indicators of compromise, and potential impact.
 
 [View Project](./siem-alert-triage)
