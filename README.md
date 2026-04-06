@@ -21,12 +21,12 @@ Hands-on SOC-style investigation using Splunk to detect command-and-control (C2)
 
 [View Project](./dns-beaconing-investigation)
 
-### 🔹 Authentication Investigation: Suspicious Logins
+### 🔹 Authentication Investigation: Suspicious Login Activity
 Hands-on SOC-style investigation using Splunk to detect brute-force attacks and account compromise through authentication log analysis.
 
 [View Project](./suspicious-login-investigation)
 
-### 🔹 Endpoint Investigation: Suspicious Process
+### 🔹 Endpoint Investigation: Suspicious Process Execution
 Hands-on SOC-style investigation using Splunk to detect suspicious PowerShell activity, encoded command execution, and potential malware behavior through endpoint process analysis.
 
 [View Project](./suspicious-process-investigation)
@@ -36,7 +36,7 @@ Development of custom detection rules in Splunk to identify malicious activity a
 
 [View Project](./detection-engineering)
 
-### 🔹 Phishing Investigation
+### 🔹 Phishing Investigation: Email Analysis
 Analysis of a simulated phishing email to identify social engineering tactics, domain spoofing, and email authentication failures (SPF, DKIM, DMARC), with supporting evidence and security impact assessment.
 
 [View Project](./phishing-email-investigation)
