@@ -20,27 +20,27 @@ Cloud Security (AWS — in progress)
 
 ## Projects
 
-### 🔹 DNS Beaconing Investigation
+### 🔹 Network Investigation: DNS Beaconing
 Hands-on SOC-style investigation using Splunk to detect command-and-control (C2) beaconing behavior through DNS log analysis.
 
 [View Project](./dns-beaconing-investigation)
 
-### 🔹 Suspicious Login Investigation
+### 🔹 Authentication Investigation: Suspicious Logins
 Hands-on SOC-style investigation using Splunk to detect brute-force attacks and account compromise through authentication log analysis.
 
 [View Project](./suspicious-login-investigation)
 
-### 🔹 Suspicious Process Investigation
+### 🔹 Endpoint Investigation: Suspicious Process
 Hands-on SOC-style investigation using Splunk to detect suspicious PowerShell activity, encoded command execution, and potential malware behavior through endpoint process analysis.
 
 [View Project](./suspicious-process-investigation)
 
-### 🔹 Detection Engineering Project
+### 🔹 Detection Engineering: SIEM Rules
 Development of custom detection rules in Splunk to identify malicious activity across endpoint, authentication, and network data sources, including PowerShell abuse, brute-force login attempts, and DNS beaconing.
 
 [View Project](./detection-engineering)
 
-### 🔹 Phishing Email Investigation
+### 🔹 Phishing Investigation
 Analysis of a simulated phishing email to identify social engineering tactics, domain spoofing, and email authentication failures (SPF, DKIM, DMARC), with supporting evidence and security impact assessment.
 
 [View Project](./phishing-email-investigation)
