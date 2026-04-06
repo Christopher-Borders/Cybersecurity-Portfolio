@@ -21,10 +21,12 @@ Development of SIEM detection rules to identify malicious behaviors such as Powe
 
 ➡️ [View Project](./detection-engineering)
 
+
 ### 🔹 SIEM Alert Triage Simulation
 Simulation of a SOC alert queue to prioritize and investigate multiple concurrent security alerts based on severity, indicators of compromise, and potential impact.
 
 ➡️ [View Project](./siem-alert-triage)
+
 
 ### 🔹 Network Investigation: DNS Beaconing
 Analysis of DNS query patterns using Splunk Enterprise to identify beaconing behavior indicative of command-and-control (C2) communication through repeated, time-based requests to a suspicious domain.
