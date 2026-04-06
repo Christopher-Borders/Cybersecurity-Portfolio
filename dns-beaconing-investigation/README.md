@@ -1,4 +1,4 @@
-## DNS Beaconing Detection & Investigation
+## Network Investigation: DNS Beaconing
 
 This project demonstrates how DNS log analysis in Splunk can be used to detect command-and-control (C2) beaconing behavior through anomaly detection and pattern analysis.
 
