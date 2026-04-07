@@ -49,6 +49,10 @@ High
 
 This alert triggers when the defined behavior occurs multiple times or exceeds a normal baseline, indicating potential malicious activity rather than isolated or expected use.
 
+### Example Output
+
+The query returns fields such as timestamp, source IP, user, and command-line activity, allowing analysts to quickly identify suspicious behavior and investigate further.
+
 #### Rationale
 
 The use of the -enc flag indicates encoded command execution, which is frequently associated with malicious activity. This detection rule identifies potential abuse of PowerShell for malware execution.
