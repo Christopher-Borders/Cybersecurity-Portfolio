@@ -22,6 +22,9 @@ The following log sources were used to develop detection rules:
 ### Detection Rules
 The following detection rules were developed based on previously analyzed attack scenarios.
 
+### False Positive Considerations
+These rules are designed to minimize false positives by focusing on abnormal or repeated behavior rather than single events. Additional context such as frequency, source, and user activity should be considered during analysis.
+
 ### Detection Rule 1: Encoded PowerShell Execution
 
 #### Description
