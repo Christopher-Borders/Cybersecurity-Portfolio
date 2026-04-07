@@ -25,6 +25,10 @@ The following detection rules were developed based on previously analyzed attack
 ### False Positive Considerations
 These rules are designed to minimize false positives by focusing on abnormal or repeated behavior rather than single events. Additional context such as frequency, source, and user activity should be considered during analysis.
 
+### Implementation
+
+These detection rules are intended to be implemented as scheduled SIEM searches that generate alerts when trigger conditions are met. Alerts should be configured to notify analysts for further investigation.
+
 ### Detection Rule 1: Encoded PowerShell Execution
 
 #### Description
