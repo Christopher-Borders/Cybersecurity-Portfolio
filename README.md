@@ -4,6 +4,8 @@ This portfolio showcases hands-on experience in security operations, including S
 
 Each project is based on realistic scenarios designed to simulate real-world security events and demonstrate practical analytical skills.
 
+---
+
 ### Skills Demonstrated
 
 - SIEM Analysis (Splunk)
@@ -13,6 +15,8 @@ Each project is based on realistic scenarios designed to simulate real-world sec
 - Incident Triage & Prioritization
 - Phishing Analysis
 - Detection Engineering
+
+---
 
 ## Projects
 
