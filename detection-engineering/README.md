@@ -48,6 +48,15 @@ MITRE ATT&CK: T1059.001 (PowerShell)
 
 Legitimate administrative or automated activity may trigger this detection and should be reviewed.
 
+### Analyst Response Guidance
+
+When this rule triggers:
+
+- Review associated logs for supporting indicators
+- Validate whether the activity is expected or anomalous
+- Investigate related processes, users, or network activity
+- Escalate if indicators of compromise are confirmed
+
 ### Detection Rule 2: Brute Force Login Activity
 
 #### Description
@@ -76,6 +85,15 @@ MITRE ATT&CK: T1110 (Brute Force)
 
 Legitimate administrative or automated activity may trigger this detection and should be reviewed.
 
+### Analyst Response Guidance
+
+When this rule triggers:
+
+- Review associated logs for supporting indicators
+- Validate whether the activity is expected or anomalous
+- Investigate related processes, users, or network activity
+- Escalate if indicators of compromise are confirmed
+  
 ### Detection Rule 3: DNS Beaconing Activity
 
 #### Description
@@ -105,6 +123,15 @@ MITRE ATT&CK: T1071.004 (Application Layer Protocol: DNS)
 
 Legitimate administrative or automated activity may trigger this detection and should be reviewed.
 
+### Analyst Response Guidance
+
+When this rule triggers:
+
+- Review associated logs for supporting indicators
+- Validate whether the activity is expected or anomalous
+- Investigate related processes, users, or network activity
+- Escalate if indicators of compromise are confirmed
+  
 ### Alert Implementation
 
 These detection rules can be operationalized in Splunk by configuring them as scheduled alerts. Alerts can be triggered based on defined thresholds and integrated with incident response workflows.
