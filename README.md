@@ -26,7 +26,7 @@ Simulation of a SOC alert queue to prioritize and investigate multiple concurren
 
 🟢 ➡️ [View Project](./siem-alert-triage)
 
-### 🔹 [Network Investigation: DNS Beaconing](./dns-beaconing-investigation)
+### 🔹 Network Investigation: DNS Beaconing
 
 Analysis of DNS query patterns using Splunk Enterprise to identify beaconing behavior indicative of command-and-control (C2) communication through repeated, time-based requests to a suspicious domain.
 
