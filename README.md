@@ -19,33 +19,33 @@ Each project is based on realistic scenarios designed to simulate real-world sec
 ### 🔹 Detection Engineering: SIEM Rules
 Development of SIEM detection rules to identify malicious behaviors such as PowerShell abuse, brute-force login attempts, and DNS beaconing using log correlation and behavioral indicators.
 
-➡️ [View Project](./detection-engineering)
+🟢 ➡️ [View Project](./detection-engineering)
 
 ### 🔹 SIEM Alert Triage Simulation
 Simulation of a SOC alert queue to prioritize and investigate multiple concurrent security alerts based on severity, indicators of compromise, and potential impact.
 
-➡️ [View Project](./siem-alert-triage)
+🟢 ➡️ [View Project](./siem-alert-triage)
 
 ### 🔹 [Network Investigation: DNS Beaconing](./dns-beaconing-investigation)
 
 Analysis of DNS query patterns using Splunk Enterprise to identify beaconing behavior indicative of command-and-control (C2) communication through repeated, time-based requests to a suspicious domain.
 
-➡️ [View Project](./dns-beaconing-investigation)
+🟢 ➡️ [View Project](./dns-beaconing-investigation)
 
 ### 🔹 Endpoint Investigation: Suspicious Process Execution
 Analysis of process execution logs to identify suspicious PowerShell activity, including repeated execution with encoded commands and abnormal parent-child process relationships.
 
-➡️ [View Project](./suspicious-process-investigation)
+🟢 ➡️ [View Project](./suspicious-process-investigation)
 
 ### 🔹 Authentication Investigation: Suspicious Login Activity
 Analysis of authentication logs to detect brute-force activity and anomalous login patterns, including repeated failed attempts followed by successful authentication from the same source.
 
-➡️ [View Project](./suspicious-login-investigation)
+🟢 ➡️ [View Project](./suspicious-login-investigation)
 
 ### 🔹 Phishing Investigation: Email Analysis
 Analysis of a phishing email to identify social engineering techniques, domain spoofing, and email authentication failures (SPF, DKIM, DMARC), with assessment of potential security impact.
 
-➡️ [View Project](./phishing-email-investigation)
+🟢 ➡️ [View Project](./phishing-email-investigation)
 
 ---
 
