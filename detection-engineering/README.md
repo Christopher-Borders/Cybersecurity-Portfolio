@@ -11,6 +11,14 @@ To design and implement detection rules capable of identifying common attack pat
 ### What is Detection Engineering?
 Detection engineering involves creating rules and logic that identify suspicious or malicious activity within logs. These rules are used by SIEM platforms to generate alerts for security analysts.
 
+### Data Sources
+
+The following log sources were used to develop detection rules:
+
+- Process execution logs (PowerShell activity)
+- Authentication logs (login attempts and failures)
+- DNS logs (query patterns and domain activity)
+
 ### Detection Rules
 The following detection rules were developed based on previously analyzed attack scenarios.
 
