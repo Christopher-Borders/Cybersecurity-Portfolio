@@ -88,7 +88,7 @@ High
 | stats count(eval(status="FAIL")) as failed_attempts, count(eval(status="SUCCESS")) as successful_attempts by username
 | where failed_attempts > 3 AND successful_attempts > 0`
 
-## Trigger Condition
+### Trigger Condition
 
 This alert triggers when the defined behavior occurs multiple times or exceeds a normal baseline, indicating potential malicious activity rather than isolated or expected use.
 
@@ -128,7 +128,7 @@ Medium or High if consisent interval is implied.
 | where count > 10
 | sort -count`
 
-## Trigger Condition
+### Trigger Condition
 
 This alert triggers when the defined behavior occurs multiple times or exceeds a normal baseline, indicating potential malicious activity rather than isolated or expected use.
 
