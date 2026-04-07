@@ -27,6 +27,10 @@ The following detection rules were developed based on previously analyzed attack
 #### Description
 Detects PowerShell processes executing encoded commands, a technique commonly used by attackers to obfuscate malicious scripts.
 
+### Threat Behavior
+
+This rule targets PowerShell abuse, a common attacker technique used for executing malicious scripts and downloading payloads.
+
 #### Severity
 High
 
