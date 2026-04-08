@@ -152,7 +152,9 @@ When this rule triggers:
 - Validate whether the activity is expected or anomalous
 - Investigate related processes, users, or network activity
 - Escalate if indicators of compromise are confirmed
-  
+
+---
+
 ### Alert Implementation
 
 These detection rules can be operationalized in Splunk by configuring them as scheduled alerts. Alerts can be triggered based on defined thresholds and integrated with incident response workflows.
