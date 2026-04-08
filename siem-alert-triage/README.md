@@ -15,15 +15,19 @@ During a monitoring shift, multiple alerts were triggered and required analysis 
 
 #### Alert 1: Suspicious PowerShell Execution
 - Host: host1
-- Indicator: Encoded PowerShell command detected
+- Indicator: Encoded PowerShell command detected or abnormal execution
+- Repeated execution observed
+- Parent process is cmd.exe
 
 #### Alert 2: Multiple Failed Login Attempts
 - User: jdoe
 - Indicator: 5 failed login attempts
+- Followed by a successful login from the same source
 
 #### Alert 3: DNS Query Spike
 - Source IP: 10.0.5.23
 - Indicator: High volume of DNS queries
+- Repeated domain requests at consisten intervals
 
 ### Alert Queue
 
