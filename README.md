@@ -2,26 +2,31 @@
 
 This portfolio showcases hands-on experience in security operations, including SIEM analysis, threat detection, endpoint investigation, and incident response.
 
-Each project is based on realistic scenarios designed to simulate real-world security events and demonstrate practical analytical skills.
+Each project is based on realistic scenarios designed to simulate real-world security events and demonstrate practical analytical skills in log analysis, detection, and investigation.
+
+This portfolio aligns with Security Operations Center (SOC) responsibilities, including monitoring, incident detection, triage, and investigation of security events relevant to enterprise and municipal environments.
+
+I am a security-focused analyst with hands-on experience in monitoring, detection, and investigation, with a strong emphasis on identifying and responding to real-world threats.
 
 ---
 
 ### Skills Demonstrated
 
-- SIEM Analysis (Splunk)
-- Threat Detection & Log Correlation
-- Endpoint Investigation (Sysmon)
-- Network Traffic Analysis
-- Incident Triage & Prioritization
-- Phishing Analysis
-- Detection Engineering
+- SIEM Analysis & Log Correlation (Splunk)
+- Threat Detection & Behavioral Analysis
+- Endpoint Investigation & Process Analysis (Sysmon)
+- Network Traffic Analysis & DNS Investigation
+- Incident Triage & Alert Prioritization
+- Phishing Analysis & Email Security
+- Detection Engineering & Rule Development
 
+These projects demonstrate practical experience analyzing logs, identifying threats, and supporting incident response workflows.
 ---
 
 ## Projects
 
 ### 🔹 Detection Engineering: SIEM Rules
-Development of SIEM detection rules to identify malicious behaviors such as PowerShell abuse, brute-force login attempts, and DNS beaconing using log correlation and behavioral indicators.
+Analysis and development of SIEM detection rules to identify malicious behaviors such as PowerShell abuse, brute-force login attempts, and DNS beaconing using log correlation and behavioral indicators.
 
 🟢 ➡️ [View Project](./detection-engineering)
 
