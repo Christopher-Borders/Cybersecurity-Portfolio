@@ -58,4 +58,4 @@ Analysis of a phishing email to identify social engineering techniques, domain s
 
 ---
 
-This portfolio reflects the end-to-end workflow of a Security Operations Center (SOC), including detection, triage, investigation, and response across multiple data sources.
+This portfolio reflects the end-to-end workflow of a Security Operations Center (SOC), including detection, triage, investigation, and response across multiple data sources and security domains.
