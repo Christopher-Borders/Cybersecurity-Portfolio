@@ -29,7 +29,7 @@ These rules are designed to minimize false positives by focusing on abnormal or 
 
 These detection rules are intended to be implemented as scheduled SIEM searches that generate alerts when trigger conditions are met. Alerts should be configured to notify analysts for further investigation.
 
-🟢 ### Detection Rule 1: Encoded PowerShell Execution
+### 🟢 Detection Rule 1: Encoded PowerShell Execution
 
 #### Description
 Detects PowerShell processes executing encoded commands, a technique commonly used by attackers to obfuscate malicious scripts.
