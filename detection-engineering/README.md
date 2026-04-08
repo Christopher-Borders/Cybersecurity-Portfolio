@@ -29,7 +29,7 @@ These rules are designed to minimize false positives by focusing on abnormal or 
 
 These detection rules are intended to be implemented as scheduled SIEM searches that generate alerts when trigger conditions are met. Alerts should be configured to notify analysts for further investigation.
 
-### Detection Rule 1: Encoded PowerShell Execution
+🟢 ### Detection Rule 1: Encoded PowerShell Execution
 
 #### Description
 Detects PowerShell processes executing encoded commands, a technique commonly used by attackers to obfuscate malicious scripts.
@@ -74,7 +74,7 @@ When this rule triggers:
 - Investigate related processes, users, or network activity
 - Escalate if indicators of compromise are confirmed
 
-### Detection Rule 2: Brute Force Login Activity
+🟢 ### Detection Rule 2: Brute Force Login Activity
 
 #### Description
 Detects multiple failed login attempts followed by a successful authentication, which may indicate a brute-force attack or credential compromise.
@@ -113,7 +113,7 @@ When this rule triggers:
 - Investigate related processes, users, or network activity
 - Escalate if indicators of compromise are confirmed
   
-### Detection Rule 3: DNS Beaconing Activity
+🟢 ### Detection Rule 3: DNS Beaconing Activity
 
 #### Description
 Detects repeated DNS queries from a single host to the same domain, which may indicate command-and-control (C2) beaconing behavior.
