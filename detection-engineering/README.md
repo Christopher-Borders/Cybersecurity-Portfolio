@@ -157,4 +157,7 @@ When this rule triggers:
 
 These detection rules can be operationalized in Splunk by configuring them as scheduled alerts. Alerts can be triggered based on defined thresholds and integrated with incident response workflows.
 
+### Detection Lifecycle
+
+These detection rules are part of an iterative process that includes testing, validation, and continuous tuning. Feedback from alert investigations is used to refine rule logic, reduce false positives, and improve detection accuracy over time.
 
