@@ -47,14 +47,14 @@ index=main src_ip=10.0.5.23
 The domain `asdkfj23jds.com` was analyzed using VirusTotal.
 No security vendors flagged the domain as malicious, and limited reputation data was available.
 
-### Interpretation:
+### Interpretation: Beaconing Pattern Identified
 Despite the lack of threat intelligence hits, the observed behavior remains highly suspicious due to:
 
 - Consistent 60-second beaconing pattern.
 - Repeated communication with a single domain.
 - Randomized domain structure.
-  
-This suggests the possibility of new or low-reputation command-and-control infrastructure.
+
+The DNS activity exhibited a consistent, time-based pattern of repeated queries to the same domain. This periodic behavior is characteristic of beaconing activity, where an infected host regularly communicates with a command-and-control (C2) server.
 
 ### Conclusion:
 The observed activity is consistent with command-and-control (C2) beaconing behavior. Although threat intelligence sources did not flag the domain as malicious, the consistent interval communication and domain characteristics strongly indicate automated and potentially malicious activity.
