@@ -2,11 +2,11 @@
 
 Hands-on SOC-focused cybersecurity projects demonstrating SIEM analysis, threat detection, and incident investigation across network and endpoint data.
 
-Each project is based on realistic scenarios designed to simulate real-world security events and demonstrate practical analytical skills in log analysis, detection, and investigation.
+Each project is based on realistic scenarios designed to simulate real-world security events and demonstrate practical analytical skills in log analysis and detection.
 
 This portfolio aligns with Security Operations Center (SOC) responsibilities, including monitoring, incident detection, triage, and investigation of security events relevant to enterprise and municipal environments.
 
-I am a security-focused analyst with hands-on experience in monitoring, detection, and investigation, with a strong emphasis on identifying and responding to real-world threats.
+I am a security-focused analyst with experience in monitoring, detection, and investigation, with a strong emphasis on identifying and responding to real-world threats.
 
 ---
 
