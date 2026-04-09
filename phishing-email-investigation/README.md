@@ -68,7 +68,7 @@ High
 - Report the email to the security team.
 - Block the sender domain.
 - Educate users on recognizing phishing attempts.
-- -Reset affected user credentials if interaction occurred.
+- Reset affected user credentials if interaction occurred.
 
 ### Email Header Analysis
 
