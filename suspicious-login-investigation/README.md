@@ -61,7 +61,7 @@ The presence of continued failed login attempts after a successful authenticatio
 The subsequent successful logins from a different IP address and geographic location indicate a likely account compromise. The rapid transition between locations suggests unauthorized access rather than legitimate user activity.
 
 ### Conclusion
-The investigation identified a likely account compromise involving user `jdoe`. The combination of repeated failed login attempts, successful authentication, continued attack activity, and a geographic anomaly strongly indicates malicious activity and unauthorized access.
+The investigation identified a likely account compromise involving user `jdoe`. The combination of repeated failed login attempts, successful authentication, continued attack activity, and a geographic anomaly strongly indicates malicious activity and unauthorized access. The observed activity is more consistent with a brute-force attack, as repeated login attempts were focused on a single account rather than distributed across multiple accounts, which would indicate password spraying.
 
 ### Recommended Actions
 - Reset the compromised user’s password immediately.
