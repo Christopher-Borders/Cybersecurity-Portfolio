@@ -1,0 +1,23 @@
+_time,host,process_name,parent_process,command_line,user
+2026-04-01T08:50:00,host1,explorer.exe,winlogon.exe,explorer.exe,alice
+2026-04-01T08:51:00,host1,chrome.exe,explorer.exe,chrome.exe www.google.com,alice
+2026-04-01T08:52:00,host1,chrome.exe,explorer.exe,chrome.exe www.amazon.com,alice
+2026-04-01T08:53:00,host1,notepad.exe,explorer.exe,notepad.exe,alice
+2026-04-01T08:54:00,host1,cmd.exe,explorer.exe,cmd.exe /c dir,alice
+2026-04-01T08:55:00,host1,svchost.exe,services.exe,svchost.exe -k netsvcs,SYSTEM
+2026-04-01T08:56:00,host1,chrome.exe,explorer.exe,chrome.exe www.youtube.com,alice
+2026-04-01T08:57:00,host1,explorer.exe,winlogon.exe,explorer.exe,alice
+2026-04-01T08:58:00,host1,notepad.exe,explorer.exe,notepad.exe,alice
+2026-04-01T09:00:00,host1,cmd.exe,explorer.exe,cmd.exe /c whoami,alice
+2026-04-01T09:01:00,host1,powershell.exe,cmd.exe,powershell.exe -nop -enc SQBFAFgA,alice
+2026-04-01T09:01:30,host1,powershell.exe,powershell.exe,powershell.exe -nop -enc SQBFAFgA,alice
+2026-04-01T09:02:00,host1,powershell.exe,cmd.exe,powershell.exe -nop -enc SQBFAFgA,alice
+2026-04-01T09:02:30,host1,powershell.exe,powershell.exe,powershell.exe -nop -enc SQBFAFgA,alice
+2026-04-01T09:03:00,host1,svchost.exe,services.exe,svchost.exe -k localservice,SYSTEM
+2026-04-01T09:04:00,host1,chrome.exe,explorer.exe,chrome.exe www.github.com,alice
+2026-04-01T09:05:00,host1,powershell.exe,explorer.exe,powershell.exe Get-Process,alice
+2026-04-01T09:06:00,host1,notepad.exe,explorer.exe,notepad.exe,alice
+2026-04-01T09:07:00,host1,chrome.exe,explorer.exe,chrome.exe www.stackoverflow.com,alice
+2026-04-01T09:08:00,host1,powershell.exe,cmd.exe,powershell.exe -nop -enc SQBFAFgA,alice
+2026-04-01T09:09:00,host1,svchost.exe,services.exe,svchost.exe -k netsvcs,SYSTEM
+2026-04-01T09:10:00,host1,explorer.exe,winlogon.exe,explorer.exe,alice
