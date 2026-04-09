@@ -65,6 +65,10 @@ The repeated execution of encoded PowerShell commands using -nop -enc flags stro
 
 The consistent repetition of the same encoded command suggests automated or scripted activity rather than manual user interaction. Additionally, the presence of suspicious parent-child relationships, such as cmd.exe launching PowerShell and PowerShell spawning itself, further supports the likelihood of malicious behavior.
 
+### Baseline Comparison
+
+While PowerShell and cmd.exe are legitimate tools, the observed behavior deviates from normal usage patterns. The repeated execution of similar commands and the process chain involving cmd.exe launching PowerShell indicate abnormal activity inconsistent with typical user behavior.
+
 ### Conclusion
 
 The investigation identified suspicious PowerShell activity consistent with potential malware execution or attacker-driven script activity. The combination of encoded command usage, repeated execution, and abnormal process relationships strongly indicates malicious behavior on the endpoint.
