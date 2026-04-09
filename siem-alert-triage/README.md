@@ -27,7 +27,7 @@ During a monitoring shift, multiple alerts were triggered and required analysis 
 #### Alert 3: DNS Query Spike
 - Source IP: 10.0.5.23
 - Indicator: High volume of DNS queries
-- Repeated domain requests at consisten intervals
+- Repeated domain requests at consistent intervals
 
 ### Alert Queue
 
