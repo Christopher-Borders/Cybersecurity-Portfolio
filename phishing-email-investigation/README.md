@@ -100,8 +100,3 @@ These tactics are commonly used in phishing campaigns to manipulate users into t
 
 MITRE ATT&CK:  
 - T1566.002 – Phishing: Spearphishing Link
-
-### Screenshots
-
-#### Phishing Email Example
-(Add screenshot here if available)
