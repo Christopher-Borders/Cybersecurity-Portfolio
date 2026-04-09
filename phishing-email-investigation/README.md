@@ -81,9 +81,9 @@ A review of the email headers revealed discrepancies between the sender domain a
 These inconsistencies are common indicators of email spoofing and phishing activity.
 These authentication failures increase the likelihood that the email was spoofed or sent from an unauthorized source.
 
-#### Email Authentication Results
+### Email Authentication Analysis
 
-The following illustrates the lack of proper email authentication in this simulated scenario:
+The SPF, DKIM, and DMARC results indicate that the email failed authentication checks, suggesting that the sender was not authorized to send messages on behalf of the domain. This supports the conclusion that the email is likely spoofed and part of a phishing attempt.
 
 ![Email Authentication](../email_authentication_results.png)
 
