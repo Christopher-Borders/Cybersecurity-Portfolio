@@ -1,4 +1,4 @@
-## Cybersecurity Portfolio
+## Cybersecurity Portfolio - SOC-Focused Projects
 
 This portfolio showcases hands-on experience in security operations, including SIEM analysis, threat detection, endpoint investigation, and incident response.
 
