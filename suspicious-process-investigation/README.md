@@ -92,7 +92,7 @@ This type of analysis is commonly performed in Security Operations Centers (SOC)
 
 ### Dataset
 
-File: [process_logs.csv](./process_logs.csv)
+[process_logs.csv](./process_logs.csv)
 
 This dataset contains simulated endpoint process logs representing both normal and suspicious activity for analysis in Splunk.
 
