@@ -1,6 +1,6 @@
-## Cybersecurity Portfolio - SOC-Focused Projects
+## Cybersecurity Portfolio - Security Analyst/SOC-Focused Projects
 
-Hands-on SOC-focused cybersecurity projects demonstrating SIEM analysis, threat detection, and incident investigation across network and endpoint data.
+Hands-on Security Analyst/SOC-focused cybersecurity projects demonstrating SIEM analysis, threat detection, and incident investigation across network and endpoint data.
 
 Each project is based on realistic scenarios designed to simulate real-world security events and demonstrate practical analytical skills in log analysis and detection.
 
